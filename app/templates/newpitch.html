@@ -1,0 +1,71 @@
+{% extends 'base.html'%}
+{% import 'bootstrap/wtf.html' as wtf%}
+
+{%block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('static', filename= 'css/styles.css')}}">
+{%endblock %}
+{% block content %}
+<div class="container"><a class="btn btn-primary" href="#pitch">News</a>View Pitches</a>
+
+<div class="card card-body  text-center impress">
+  <p>One minute challenge !! Impress someone in Only one minute!!</p>
+  <p>Let's se what you got buddy!!</p>
+</div>
+
+
+
+  <!-- new pitch form goes here -->
+
+  <div class="row">
+    <div class="col-md-6">
+
+      <div class="card card-body">
+        <h4>{{title}}</h4>
+        <div>
+          {{wtf.quick_form(pitch_form)}}
+
+
+        </div>
+        <br>
+        <h2>"You are someone's favourite notification"</h2>
+        <br>
+
+        <h3>Make a meaningfull meassage to someone about something in a minute</h3>
+      </div>
+      
+    </div>
+    
+
+    
+  </div>
+  <div id="pitch">
+    <div class="row d-flex align-items-center h-100">
+       <div class="col col-lg-6 mb-4 mb-lg-0">
+         <figure class="bg-white p-3 rounded" style="border-left: .25rem solid #a34e78;">
+           <blockquote class="blockquote pb-2">
+             <p>
+              G2Crowd is a platform that gives software users the opportunity to directly share their opinions on a product. Here's the company's elevator pitch:
+           </blockquote>
+           <figcaption class="blockquote-footer mb-0 font-italic">
+             Mark Twain
+           </figcaption>
+         </figure>
+       </div>
+       <div class="col col-lg-6">
+         <figure class="bg-white p-3 rounded" style="border-left: .25rem solid #f68e9d;">
+           <blockquote class="blockquote pb-2">
+             <p>
+              Content marketing consultant Ryan Robinson often contacts businesses to offers his services. However, before ever making his pitch, he finds something of value to give to the recipient, such as a share on Twitter. He then includes what he did for the recipient in his pitch.
+             </p>
+           </blockquote>
+           <figcaption class="blockquote-footer mb-0 font-italic">
+             Mark Twain
+           </figcaption>
+         </figure>
+       </div>
+     </div>
+   </div>
+</div>
+
+{%endblock%}
