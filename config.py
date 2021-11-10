@@ -1,7 +1,7 @@
 import os # os module allow the application to interacts with the operating system dependency functionality.
 
 class config:
-    SECRET_KEY='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'
+    SECRET_KEY='nur'
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:123456@localhost/nur'
     SQLALCHEMY_TRACK_MODIFICATIONS=True
     UPLOADED_PHOTOS_SET='app/static/photos'
