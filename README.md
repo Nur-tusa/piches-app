@@ -31,7 +31,7 @@ bash
 git init
 
 bash
-git remote add origin https://github.com/jepkess/Pitch-App.git
+git remote add origin https://github.com/Nur-tusa/piches-app.git
 
 #### Create  the virtual environment
 bash
