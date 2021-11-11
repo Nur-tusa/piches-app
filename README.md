@@ -24,7 +24,7 @@ This application will help user to see pitchs and creat bitch
 * python3.8
 * virtual environment
 * pip
-
+# live link https://pitch-nur.herokuapp.com/
 
 #### Initialize git and add the remote repository
 bash
