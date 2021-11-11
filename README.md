@@ -46,20 +46,20 @@ Install dependancies that will create an environment for the app to run
 `pip install -r requirements.txt`
 
 bash
-python3.8 manage.py check
+python3.9 manage.py check
 python manage.py makemigrations 
-python3.8 manage.py sqlmigrate 
-python3.8 manage.py migrate
+python3.9 manage.py sqlmigrate 
+python3.9 manage.py migrate
 
 #### Run the app
 bash
-python3.8 manage.py runserver
+python3.9 manage.py runserver
 
 Open [localhost:5000](http://127.0.0.1:5000)
 ## Testing the Application
-`python3.8 manager.py test`
+`python3.9 manager.py test`
 ## Technologies used
-1.  python 3.8 version
+1.  python 3.9 version
 2. Flask
 3.  Boostrap
 4.  HTML
