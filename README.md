@@ -7,6 +7,7 @@
 This application will help user to see pitchs and creat bitch
 1. user authentication user registration and login.
 2. User creating a pitch
+3. user commenting and upvote and down vote
 
 
 
