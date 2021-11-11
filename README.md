@@ -22,9 +22,7 @@ This application will help user to see pitchs and creat bitch
 * python3.8
 * virtual environment
 * pip
-#### Clone the Repo and rename it to your suitable name of your choice.
-bash
-git clone https://github.com/jepkess/Pitch-App.git
+
 
 #### Initialize git and add the remote repository
 bash
@@ -70,3 +68,7 @@ Open [localhost:5000](http://127.0.0.1:5000)
  address ; 
  
  telephone number: 0115314390
+
+
+# copyright 
+only reserved to tusa @company  only
