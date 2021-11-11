@@ -21,9 +21,10 @@ This application will help user to see pitchs and creat bitch
 2.  crating a pitch  
 
 ### Prerequisites
-* python3.8
+* python3.9
 * virtual environment
 * pip
+* psql
 # live link https://pitch-nur.herokuapp.com/
 
 #### Initialize git and add the remote repository
